@@ -102,13 +102,19 @@ body {
     flex-direction: row;
 }
 .cb-left {
-    padding: 30px;
+    padding: 30px 5px 20px 40px;
 }
 .cb-left a {
     text-decoration: none;
 }
 .area input {
-    padding: 5px;
+    padding: 5px 0;
+}
+.area-lr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .area .area-link {
     display: inline-block;
